@@ -1,9 +1,0 @@
-●	Page 71 In[53] How does BournelliNB work?
-●	What does the stratify argument do in sklearn.model_selection.train_test_split()?
-●	What makes a decision tree’s leaves pure? Does it have to correctly classify all classes for a given node or does it just have to correctly classify the majority for the given node?
-●	What is the difference between bagging and random forests?
-●	What is ravel()?
-●	Definition of variance. The variance of data in relation to how PCA uses the principal components which obtain points which have the highest variance in the data.
-●	What does the `whiten` argument do in PCA()?
-	When True (False by default) the components_ vectors are multiplied by the square root of n_samples and then divided by the singular values to ensure uncorrelated outputs with unit component-wise variances.
-	Whitening will remove some information from the transformed signal (the relative variance scales of the components) but can sometimes improve the predictive accuracy of the downstream estimators by making their data respect some hard-wired assumptions.
